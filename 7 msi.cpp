@@ -7,7 +7,7 @@ int main()
 	int sum=arr[0];
 	for (int i=0; 9>i; i++) {
 		int res=0;
-		for (int j=i+1; 9>j; j++) {
+		for (int j=i; 9>j; j++) {
 			res+=arr[j];
 			sum=max(sum,res);
 		}
