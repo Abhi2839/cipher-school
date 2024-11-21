@@ -14,9 +14,7 @@ int main()
 		cin>>b;
 		v.push_back(b);
 	}
-	set<int>s(v.begin(),v.end());
-	v.assign(s.begin(),s.end());
 	sort(v.begin(),v.end());
-	cout<<v[v.size()-k-1];
+	cout<<v[v.size()-k];
 	return 0;
 }
